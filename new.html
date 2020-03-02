@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>question 1</title>
+<script>
+function change_text(){
+var val=document.getElementById("main").innerHTML;
+if(val=="Hello!"){
+val="Well done";
+ document.getElementById("main").innerHTML="Well done!";
+}
+else{
+val="Hello!";
+ document.getElementById("main").innerHTML="Hello!";
+}
+}
+
+</script>
+</head>
+
+<body>
+<h1 id="main">Hello!</h1>
+<button onclick="change_text()">change the text</button>
+</body>
+</html>
+
+
+
+
+

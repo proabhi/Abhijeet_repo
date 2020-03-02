@@ -1,90 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>index page</title>
-<style>
-body{
-margin:0;
-}
-a>li{
-list-style:none;
-display:inline;
-}
-li:hover{
-color:#E11748;
-}
-a{
-font-size:25px;
-padding :0% 5%;
-text-decoration:none;
-color:black;
-}
-.block{
-width:38%;
-heigth:50%;
-border:1px solid black;
-padding:4%;
-margin:4% 0;
-text-align:justify;
-text-justify:inner-word;
-box-shadow:15px 10px #ebf5f5;
-}
-div#footer{
-background-color:#6e9296;
-width:100%;
-
-text-align:center;
+<title>question 1</title>
+<script>
+function myfunction(a){
+if((a%3==0)&&(a%5==0)){
+ return "FizzBuzz";
 }
 
-</style>
+else if(a%3==0){
+ return "Fizz";
+}
+else if(a%5==0){
+  return "Buzz";
+}
+else {
+  return a;
+}
+
+}
+for (n=1;n<=100;n++){
+console.log(myfunction(n));
+}
+
+</script>
 </head>
+
 <body>
-<ul>
-<a href="#"><li>Home</li></a>
-<a href="#"><li>About</li></a>
-<a href="#"><li>Sessions</li></a>
-<a href="#"><li>Contact</li></a>
-<a href="signup.html" target="_blank"><li>Sign up</li></a>
-<a href="login.html" target="_blank"><li>Log in</li></a>
-</ul>
 
-<img style="width:100%;"src=yoga.jpg alt="image">
-<div id="main" style="margin-left:36%;">
-<div class="block">
-<img style="width:100%;"src="person.jpg" alt="image">
-<p>Breakfast procuring nay end happiness allowance assurance frankness. Met simplicity nor difficulty unreserved who.
- Entreaties mr conviction dissimilar me astonished estimating cultivated. On no applauded exquisite my additions. 
-Pronounce add boy estimable nay suspected. You sudden nay elinor thirty esteem temper. Quiet leave shy you gay off 
-asked large style.
-</p>
-
-</div>
-<div class="block">
-<img style="width:100%;"src="meditate.jpg" alt="image">
-<p>So by colonel hearted ferrars. Draw from upon here gone add one. He in sportsman household otherwise it perceived instantly.
- Is inquiry no he several excited am. Called though excuse length ye needed it he having. Whatever throwing we on resolved 
-entrance together graceful. Mrs assured add private married removed believe did she. 
-
-</p>
-
-</div>
-<div class="block">
-<img style="width:100%;"src="peaceful.jpg" alt="image">
-<p>Breakfast procuring nay end happiness allowance assurance frankness. Met simplicity nor difficulty unreserved who.
- Entreaties mr conviction dissimilar me astonished estimating cultivated. On no applauded exquisite my additions. 
-Pronounce add boy estimable nay suspected. You sudden nay elinor thirty esteem temper. Quiet leave shy you gay off 
-asked large style.
-</p>
-
-</div>
-
-</div>
-<br>
-<br>
-<div id="footer" style="min-height:309%;">
-<p style="margin:0; padding :3%;">All right reserved@Abhijeet kumar 2020</p>
-</div>
-</div>
 
 </body>
-<html>
+</html>
+
+
+
+
+
